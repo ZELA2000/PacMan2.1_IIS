@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<GridPane fx:id="gridPane" stylesheets="@map-style.css" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.GameController">
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="28" GridPane.rowIndex="0" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="0" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="1" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="1" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="27" GridPane.rowIndex="1" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="1" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="1" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="2" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="2" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="2" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="2" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="2" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="2" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="3" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="3" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="3" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="4" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="4" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="4" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="5" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="5" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="5" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="14" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="15" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="6" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="6" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="6" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="27" GridPane.rowIndex="6" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="6" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="6" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="7" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="7" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="7" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="14" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="15" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="8" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="8" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="8" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="9" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="9" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="9" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="10" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="10" />
+    <Circle fill="#171717" radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="10" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="10" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="14" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="15" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="11" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="11" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="11" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="12" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="12" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="12" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="13" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="13" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="13" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="14" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="14" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="14" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="14" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="15" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="15" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="15" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="15" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="2" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="27" GridPane.rowIndex="16" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="16" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="16" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="14" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="17" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="17" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="17" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="2" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="27" GridPane.rowIndex="18" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="18" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="18" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="19" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="path" width="10" GridPane.columnIndex="4" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="19" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="19" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="19" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="19" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="19" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="19" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="path" width="10" GridPane.columnIndex="25" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="19" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="19" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="19" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="path" width="10" GridPane.columnIndex="4" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="14" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="15" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="path" width="10" GridPane.columnIndex="25" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="20" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="20" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="20" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="21" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="21" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="21" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="22" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="22" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="22" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="23" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="23" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="23" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="2" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="14" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="15" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="27" GridPane.rowIndex="24" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="24" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="24" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="1" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="2" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="25" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="27" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="28" GridPane.rowIndex="25" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="25" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="1" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="26" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="28" GridPane.rowIndex="26" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="26" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="1" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="2" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="3" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="26" GridPane.rowIndex="27" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="27" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="28" GridPane.rowIndex="27" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="27" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="1" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="2" GridPane.rowIndex="28" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="4" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="5" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="6" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="7" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="8" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="9" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="10" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="11" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="12" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="13" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="14" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="15" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="16" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="17" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="18" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="19" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="20" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="21" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="22" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="23" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="24" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="25" GridPane.rowIndex="28" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="27" GridPane.rowIndex="28" />
+    <Circle radius="3" styleClass="moneta" GridPane.columnIndex="28" GridPane.rowIndex="28" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="28" />
+
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="0" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="1" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="2" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="3" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="4" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="5" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="6" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="7" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="8" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="9" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="10" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="11" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="12" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="13" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="14" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="15" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="16" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="17" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="18" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="19" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="20" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="21" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="22" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="23" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="24" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="25" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="26" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="27" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="28" GridPane.rowIndex="29" />
+    <Rectangle height="10" styleClass="muro" width="10" GridPane.columnIndex="29" GridPane.rowIndex="29" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+  </GridPane>

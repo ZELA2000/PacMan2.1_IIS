@@ -1,0 +1,34 @@
+/* Quelli con la classe muro hanno il colore viola */
+.muro {
+    -fx-fill: purple;
+}
+
+.moneta {
+    -fx-fill: yellow;
+    /* posiziono le monete al centro del rettangolo */
+    -fx-translate-x: 2;
+    -fx-translate-y: 0;
+}
+
+.pacman {
+    -fx-fill: blue;
+    -fx-z-index: 100;
+}
+
+.ghost {
+    -fx-fill: green;
+}
+
+.apple {
+    -fx-fill: red;
+}
+
+.path{
+    -fx-fill:white;
+}
+
+/* sfondo del gridpane */
+GridPane {
+    -fx-background-color: black;
+}
+
